@@ -15,6 +15,19 @@ A web-based 3D visualizer that accurately simulates the collision of a user-uplo
     - Fine-tune position and rotation.
 - **Export**: Export layer visualizations as images or video.
 
+## Visuals
+
+### Application Layout
+![Application Layout](https://raw.githubusercontent.com/eooes/3d_collision_visualizer/refs/heads/main/layout.png)
+
+This image illustrates the main interface of the application. It typically shows the 3D viewport where the object and cylindrical layers are rendered, along with the sidebar or overlay controls for adjusting parameters like opacity, scale, and layer visibility.
+
+### Visualization Overview
+![Visualization Output](https://github.com/eooes/3d_collision_visualizer/blob/main/readme%20.png?raw=true)
+
+This visual demonstrates the core functionality of the project: the collision detection in action. It likely depicts the "unfolded" 2D view or the cumulative effect of the 3D object intersecting with the concentric cylindrical layers, resulting in the collision map.
+
+
 ## Getting Started
 
 ### Prerequisites
