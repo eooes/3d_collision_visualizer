@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #111;
+    color: white;
+    user-select: none;
+}
+
+#canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#ui-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 90vh;
+    overflow-y: auto;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.layer-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+
+.layer-label {
+    width: 20px;
+    text-align: right;
+}
+
+.layer-canvas {
+    border: 1px solid #333;
+    image-rendering: pixelated;
+}
